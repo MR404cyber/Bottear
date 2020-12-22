@@ -88,7 +88,10 @@ list_menu = {
 
 
 LOGO = f""" 
-   figlet "Rayhan-GZ" | lolcat ""
+   {R}  ┏━┓┏━━┓┏━┳┓┏┓┏┓┏━━┓┏━┳┓
+     ┃╋┃┃┏┓┃┗┓┃┃┃┗┛┃┃┏┓┃┃┃┃┃
+   {W}  ┃┓┫┃┣┫┃┏┻┓┃┃┏┓┃┃┣┫┃┃┃┃┃
+     ┗┻┛┗┛┗┛┗━━┛┗┛┗┛┗┛┗┛┗┻━┛"""
 
 def updateFunc(func):
 	def inner():
@@ -253,10 +256,10 @@ def login():
    5. By using this the user is considered to
       understand and comply with the above provisions
       
-      ToolsBy RayhanGanz
+      Tools By : RayhanGanz
       """)
 
-	cookies = input_("Cookie Akun Kamus: ")
+	cookies = input_("Cookie Akun Kamu: ")
 	ses = fb.Account(cookies)
 	try:
 		url = "https://mbasic.facebook.com/photo.php?fbid=166694224710808&id=100041106940465"
