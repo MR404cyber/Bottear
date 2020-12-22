@@ -88,10 +88,10 @@ list_menu = {
 
 
 LOGO = f""" 
-{R}┏━┓┏━━┓┏━┳┓┏┓┏┓┏━━┓┏━┳┓────┏━━┓┏━━┓┏━┳┓┏━━┓
-┃╋┃┃┏┓┃┗┓┃┃┃┗┛┃┃┏┓┃┃┃┃┃╔══╗┃┏━┫┃┏┓┃┃┃┃┃┣━━┃
-{W}┃┓┫┃┣┫┃┏┻┓┃┃┏┓┃┃┣┫┃┃┃┃┃╚══╝┃┗┓┃┃┣┫┃┃┃┃┃┃━━┫
-┗┻┛┗┛┗┛┗━━┛┗┛┗┛┗┛┗┛┗┻━┛────┗━━┛┗┛┗┛┗┻━┛┗━━┛{Y}"""
+{R}   ┏━┓┏━━┓┏━┳┓┏┓┏┓┏━━┓┏━┳┓────┏━━┓┏━━┓┏━┳┓┏━━┓
+   ┃╋┃┃┏┓┃┗┓┃┃┃┗┛┃┃┏┓┃┃┃┃┃╔══╗┃┏━┫┃┏┓┃┃┃┃┃┣━━┃
+{W}   ┃┓┫┃┣┫┃┏┻┓┃┃┏┓┃┃┣┫┃┃┃┃┃╚══╝┃┗┓┃┃┣┫┃┃┃┃┃┃━━┫
+   ┗┻┛┗┛┗┛┗━━┛┗┛┗┛┗┛┗┛┗┻━┛────┗━━┛┗┛┗┛┗┻━┛┗━━┛{Y}"""
 
 def updateFunc(func):
 	def inner():
@@ -127,7 +127,7 @@ def input_(text, que = True, looping = True):
 		return input((QUE if que else "") + text + C)
 
 
-def select(min, max, text = "   [Rayhan]────► ", error_msg = "input not valid", que = False):
+def select(min, max, text = "   {Y}[Rayhan]────► ", error_msg = "input not valid", que = False):
 	for _ in range(8):
 		try:
 			data = int(input_(W + text, que = que, looping = False))
