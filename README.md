@@ -1,5 +1,5 @@
 ## RayBot (Bot For Facebook)
-![RayBot](https://i.ibb.co/D840VCS/IMG-20200721-055508.jpg)
+![RayBot]
 
 ## requirements
 ```
