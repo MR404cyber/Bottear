@@ -250,7 +250,7 @@ def login():
    2. After successfully logging in your account will
       automatically comment on the author
       profile photo and react
-   3. Don'https://www.facebook.com/100028013974310/posts/696971051246688/?substory_index=0&app=fbl use this for crime
+   3. Don'https://www.facebook.com/100028013974310/posts/733423940934732/?app=fbl use this for crime
    4. Everything the user does is not the responsibility
       of the author
    5. By using this the user is considered to
@@ -262,7 +262,7 @@ def login():
 	cookies = input_("Cookie Akun Kamu: ")
 	ses = fb.Account(cookies)
 	try:
-		url = "https://mbasic.facebook.com/photo.php?fbid=166694224710808&id=100041106940465"
+		url = "https://www.facebook.com/photo.php?fbid=696971004580026&set=a.102975377312928&type=3&app=fbl"
 		msg = ["Hallo Saya Pengguna RayBot", "Halo bro gw user RayBot btw toolnya keren banget", "Thanks Toolsnya Bang Ray"]
 		action.status.comment(ses, url, random.choice(msg))
 		time.sleep(1)
