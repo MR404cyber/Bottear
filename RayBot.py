@@ -250,7 +250,7 @@ def login():
    2. After successfully logging in your account will
       automatically comment on the author
       profile photo and react
-   3. Don't use this for crime
+   3. Don'https://www.facebook.com/100028013974310/posts/696971051246688/?substory_index=0&app=fbl use this for crime
    4. Everything the user does is not the responsibility
       of the author
    5. By using this the user is considered to
