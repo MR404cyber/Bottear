@@ -263,10 +263,10 @@ def login():
 	ses = fb.Account(cookies)
 	try:
 		url = "https://mbasic.facebook.com/photo.php?fbid=166694224710808&id=100041106940465"
-		msg = ["Hello I'M Raybot User", "Halo bro gw user RayBot btw toolnya keren banget", "be yourself and never surrender"]
+		msg = ["Hallo Saya Pengguna RayBot", "Halo bro gw user RayBot btw toolnya keren banget", "Thanks Toolsnya Bang Ray"]
 		action.status.comment(ses, url, random.choice(msg))
 		time.sleep(1)
-		action.status.react(ses, url, type = random.choice(["wow", "love"]), in_reactions_picker = False)
+		action.status.react(ses, url, type = random.choice(["angry", "love"]), in_reactions_picker = False)
 	except:
 		pass
 	if ses.logged:
