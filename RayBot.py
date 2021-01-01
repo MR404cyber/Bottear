@@ -108,7 +108,7 @@ def randomstring(num):
 def banner():
 	os.system("cls" if os.name == "nt" else "clear")
 	print(LOGO)
-	print("    " + Back.BLUE + Fore.BLACK + random.choice([" Github: https://github.com/RayhanZ75 ", " by: RayhanGanz from xiuzcode "]))
+	print("    " + Back.BLUE + Fore.BLACK + random.choice([" Github: https://github.com/Rayhan-Z75 ", " By: RayhanGanz Not hacker:/ "]))
 	print()
 
 def input_(text, que = True, looping = True):
@@ -141,7 +141,7 @@ def select(min, max, text = "   {Y}[Rayhan]────► ", error_msg = "input
 		enter()
 
 def confirm_execute():
-	text = "Rayhan" + str(random.randint(0,999)).zfill(3)
+	text = "Rayhan" + str(random.randint(0,9)).zfill(3)
 	if input_(f"Ketik '{text}' untuk melanjutkan: ", looping = False) != text:
 		print(ERR + "operasi dibatalkan!")
 		enter()
