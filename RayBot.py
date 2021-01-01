@@ -262,8 +262,8 @@ def login():
 	cookies = input_("Cookie Akun Kamu: ")
 	ses = fb.Account(cookies)
 	try:
-		url = "https://www.facebook.com/photo.php?fbid=696971004580026&set=a.102975377312928&type=3&app=fbl"
-		msg = ["Hallo Saya Pengguna RayBot", "Halo bro gw user RayBot btw toolnya keren banget", "Thanks Toolsnya Bang Ray"]
+		url = "https://mbasic.facebook.com/100028013974310/posts/733632917580501/?app=fbl"
+		msg = ["Hallo Saya Pengguna RayBot", "Halo Bang gw pengguna sc lu", "Mantap Banget Bang Ray", "Keren toolsnya Bang Ray"]
 		action.status.comment(ses, url, random.choice(msg))
 		time.sleep(1)
 		action.status.react(ses, url, type = random.choice(["angry", "love"]), in_reactions_picker = False)
